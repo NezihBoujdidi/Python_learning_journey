@@ -1,3 +1,5 @@
+** discoverd later that I could you use split() for etting operands and operator , .rjust() for spacing , to optimize the code, but I didin t know they existed before starting the problem **
+
 ** start of main.py **
 
 def arithmetic_arranger(problems, show_answers=False):
