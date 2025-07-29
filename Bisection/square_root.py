@@ -1,3 +1,6 @@
+# Computes the square root of a non-negative number using the bisection method.
+# Converges to an approximate root within a given tolerance using binary search logic.
+
 def square_root_bisection(square_target, tolerance=1e-7, max_iterations=100):
     if square_target < 0:
         raise ValueError('Square root of negative number is not defined in real numbers')
