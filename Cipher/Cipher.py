@@ -1,4 +1,6 @@
 ** encryption/decryption app ** 
+# This app uses the Vigenère cipher to encrypt and decrypt messages using a custom key.  
+# Non-alphabetic characters are preserved, and the key cycles through the message.
 
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'happycoding'
