@@ -1,3 +1,5 @@
+# Generates a secure random password meeting specific character constraints using `secrets` and regex validation.
+
 ** r'' : raw string, \ is not a backslash here, we can use r'\d' for digits and r'\w' for alphanumeric and \D and \W for the opposite, same as '[^0-9]' for exemple = '\D' **
 import re
 import secrets
