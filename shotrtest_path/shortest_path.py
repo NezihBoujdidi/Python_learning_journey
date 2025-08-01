@@ -1,3 +1,7 @@
+# here I learned the use of extend() that takes all the elements from one list and adds them to another list without creating a new list.
+# also the use of list[:] that makes a copy of a list so you can change it without accidentally changing the original one it was copied from.
+# also the use of .remove() that removes the first occurence of the element passed.
+
 my_graph = {
     'A': [('B', 5), ('C', 3), ('E', 11)],
     'B': [('A', 5), ('C', 1), ('F', 2)],
