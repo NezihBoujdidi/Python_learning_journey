@@ -1,5 +1,5 @@
 ** discoverd later that I could you use split() for etting operands and operator , .rjust() for spacing , to optimize the code, but I didin t know they existed before starting the problem **
-
+** how manually iterating over strings to find operators and operands can be replaced by built-in functions like split() for cleaner and shorter code **
 ** start of main.py **
 
 def arithmetic_arranger(problems, show_answers=False):
