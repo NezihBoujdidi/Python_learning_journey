@@ -1,5 +1,6 @@
 # This script verifies a credit/debit card number using the Luhn algorithm.  
 # It handles formatting (spaces or dashes) and checks if the number is mathematically valid.
+# copy of a string using the str[::]
 
 def verify_card_number(card_number):
     sum_of_odd_digits = 0
