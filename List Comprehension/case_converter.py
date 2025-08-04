@@ -1,6 +1,7 @@
-# Converts a PascalCase or camelCase string into snake_case format.
-# Inserts underscores before uppercase letters and converts all characters to lowercase.
-# the use of .join() to get a string from a list
+** Converts a PascalCase or camelCase string into snake_case format. **
+** Inserts underscores before uppercase letters and converts all characters to lowercase. **
+** the use of .join() to get a string from a list **
+
 def convert_to_snake_case(pascal_or_camel_cased_string):
     # snake_cased_char_list = []
     # for char in pascal_or_camel_cased_string:
