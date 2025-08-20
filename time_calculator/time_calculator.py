@@ -1,3 +1,7 @@
+** I knew later I can use str.zfill(2) to add a 0 on the left for minutes if they are under 10 **
+** I learned also I could use hours, minutes = divmod(total_minutes, 60) to simplify code rather than using // and % in separate lines **
+
+
 def add_time(start, duration, starting_day='None'):
     start_hour = int(start.split(':')[0])
     print(start_hour)
