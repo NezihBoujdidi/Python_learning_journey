@@ -1,4 +1,5 @@
-** Learned the use of helper methods preceded by _, which is a naming convention in Python to indicate that a method is intended for internal use only **
+** Learned the use of helper methods preceded by _, which is a naming convention in Python to indicate that a method is intended for internal use only, to manage internal variables 
+without exposing them to the user **
 ** got familiar with the bst concept in general **
 
     
