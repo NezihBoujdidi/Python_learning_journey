@@ -1,4 +1,7 @@
+** Learned the use of helper methods preceded by _, which is a naming convention in Python to indicate that a method is intended for internal use only **
+** got familiar with the bst concept in general **
 
+    
 class TreeNode:
 
     def __init__(self, key):
