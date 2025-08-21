@@ -1,3 +1,9 @@
+** the use of all(iterable) function which returns true if all items of iterable are truthy **
+** the use of __str__ so u can print an object **
+** the use of for i, j in enumerate(list) that returns the index in i with the item in j of items of the list ** 
+** the use of walrus assignment which is used to assign a value to an attribute inside an expression like if (x := getvalue(item)) is None: we can use the x in a later 
+line of code outside the if **
+
 class Board:
     def __init__(self, board):
         self.board = board
