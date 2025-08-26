@@ -1,10 +1,13 @@
 ** learned the use of * in method calls that enforces the keyword attributes calling (specify attribute name and value), it can serve as a sparator between attributes that are known
 by position and after the * the attributes that require name specification **
 ** learned the use of super in child classes to use the same constructor method of parent class for similar attributes **
-** learned the use of getattr(self, attribute_name) that returns the value of the attribute 'attribute_name' and it returns AttributeError if attribute_name doesn t exist **
-** learned the use of vars(self) which returns a dict that containes the attribute names as keys and their values **
+** learned the use of getattr(self, attribute_name) that returns the value of the attribute 'attribute_name' and it returns AttributeError if attribute_name doesn t exist, also, we
+can pass a default value to avoid AttributeError, e.g. getattr(self, attribute_name, None) that will return None instead **
+** learned the use of vars(self) which returns a dict that containes the attribute names as keys and their values, similar to self.__dict__ **
 ** learned the use of __class__ which can be useful to test type of class or name of class using __class__.__name__ **
 ** learned the instanciation of a new object of a class using __class__(**dict) that uses keyword notation on a dict of attributes and their values **
+** __str__: User-friendly string (used by print()) 
+   __repr__: Debug/developer-friendly string, should be unambiguous and ideally allow recreating the object (R2Vector(x=2, y=3)) **
 
 
 class R2Vector:
