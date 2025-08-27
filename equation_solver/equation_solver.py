@@ -1,3 +1,24 @@
+** learned the use of ABC module from abc which is used to indicate that a class is abstract and cannot be instantiated, it serves as an interface-like ready to be implemented **
+** learned the use of @abstractmethod annotation from abc which is specified just before the definition of abstract methods in abstract classes **
+** the use of isinstance(arg,(types or just 1 type)) that checks if the instance arg is of type one of the types in the tuple passed as 2nd argument **
+** learned the use of __init_subclass__(cls) which takes cls as argument and is defined in the abstract class to check if the class implementing this abstract class has the attributes
+defined in the abstract class, if not it raises an error of AttributeError to indicate missing attribute **
+** hasattr(cls, "attribute_name") : checks if the implementing class has the attribute named "attribute_name" and returns boolean **
+** leanrned the use of re.sub() method which takes a pattern or a string as 1st arg, the replacing string as 2nd arg, and the string that we will be applying the sub method on, for expl:
+   re.sub(r"(?<!\d)1(?=x)", "", equation_string.strip("+")) **
+** r"(?<!\d)1(?=x)"  "" means all the - 1 - characters that are preceeded with non digits and the character after them is 'x' **
+** we can use also (?<=a)char , this will indicate all the char occurences that are preceeded with an - a - character or char(?=a) to indicate all occurences of char that after it there
+is the character - a - **
+** we can align strings using {string:-^24} : this will put the string in the middle of ---------string---------
+    {string:<24} : this will align the string to the left
+    {string:>24} : this will align it to the right, making spaces before it
+** {equation!s} is the same as str(equation) using the !s annotation **
+** match/case is used to write some code based on the value of the attribute place after match , for expl match string:
+                                                                                                                case 'Football':
+                                                                                                                    code
+                                                                                                                case 'Tennis':
+                                                                                                                    code                 **
+
 from abc import ABC, abstractmethod
 import re
 
