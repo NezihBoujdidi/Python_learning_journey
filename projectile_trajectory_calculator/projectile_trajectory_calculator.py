@@ -1,3 +1,11 @@
+** Learned how to keep attribute names locked to be used with adding their names as string to a tuple assigned to the attribute __slots__ **
+** learned how to keep attributes private dedicated for internal use only within the class by preceeding the attribute name with __ like __speed similar to functions also !!**
+** learned how to define getters with the @property decorator and the name of the attribute as the getter function name to return self.__attribute **
+** learned how to define setter to set new values to private attributes externally, with the decorator @variableName.setter , like @height.setter
+    def height(self, n):
+        self.__height = n         **
+** math.ceil() returns the round number that comes just after the passed float, rounded up sort of **
+ 
 import math
 
 GRAVITATIONAL_ACCELERATION = 9.81
