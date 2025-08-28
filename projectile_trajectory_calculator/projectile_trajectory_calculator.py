@@ -1,5 +1,5 @@
-** Learned how to keep attribute names locked to be used with adding their names as string to a tuple assigned to the attribute __slots__ **
-** learned how to keep attributes private dedicated for internal use only within the class by preceeding the attribute name with __ like __speed similar to functions also !!**
+** Learned how to lock attribute names by defining __slots__ as a tuple of allowed attribute names. This prevents creating any new attributes outside those listed **
+** Learned how to declare attributes meant for internal use only by prefixing their names with double underscores __, like __speed. This also applies to methods.**
 ** learned how to define getters with the @property decorator and the name of the attribute as the getter function name to return self.__attribute **
 ** learned how to define setter to set new values to private attributes externally, with the decorator @variableName.setter , like @height.setter
     def height(self, n):
