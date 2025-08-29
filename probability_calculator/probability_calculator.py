@@ -1,3 +1,7 @@
+** learned how to use the copy module , to copy mutable types without the original one being affected, like x= copy.deepcopy({'c':1,'b':5}), but when using copy.copy on nested objects
+    like [1,2,[3,4]] changing 3 or 4 in the copy will affect the original but changing 1 or 2 wont **
+** in __init__ , **kwargs will tell that the kwargs will be a dict of key values , but *args will be simple list **
+
 import copy
 import random
 
