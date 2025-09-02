@@ -16,4 +16,22 @@ class Solution:
             if occ==len(strs):
                 return min_str[0:len(min_str)-j:]
         return ""
-            
+
+#or 2nd sol
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        shortest_str = strs[0]
+        for string in strs:
+            if len(string) < len(shortest_str):
+                shortest_str = string
+        for i in range(len(shortest_str),0,-1):
+            all_match = True
+            for string in strs:
+                if string[0:i:] == shortest_str[0:i:]:
+                    continue
+                else:
+                    all_match = False
+                    break
+            if all_match == True :
+                return shortest_str[0:i:]
+        return ""           
