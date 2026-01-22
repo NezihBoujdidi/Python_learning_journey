@@ -1,5 +1,5 @@
-# A simple command-line expense tracker that allows adding, listing, totaling, and filtering expenses by category.
-# Utilizes basic functions: map() , filter() and lambda function to handle user interaction.
+** A simple command-line expense tracker that allows adding, listing, totaling, and filtering expenses by category. **
+** Utilizes basic functions: map() , filter() and lambda function to handle user interaction. **
 
 def add_expense(expenses, amount, category):
     expenses.append({'amount': amount, 'category': category})
