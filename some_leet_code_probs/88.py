@@ -1,3 +1,5 @@
+# I could just add nums2[j] in nums1[m+j] and use nums1.sort(), but wanted to not use .sort()
+
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         i = 0
